@@ -1,0 +1,16 @@
+server:
+  port: 18001
+spring:
+  application:
+    name: spring-cloud-service
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+management:
+  endpoint:
+    web:
+      exposure:
+        include:'*'

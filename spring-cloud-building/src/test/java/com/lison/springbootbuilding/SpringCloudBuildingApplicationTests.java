@@ -1,10 +1,10 @@
-package com.cundream.springcloudalibababuilding;
+package com.lison.springbootbuilding;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringCloudAlibabaBuildingApplicationTests {
+class SpringCloudBuildingApplicationTests {
 
     @Test
     void contextLoads() {
