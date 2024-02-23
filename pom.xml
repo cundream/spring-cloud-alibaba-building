@@ -26,6 +26,7 @@
     <modules>
         <module>spring-cloud-building</module>
         <module>spring-cloud-service</module>
+        <module>spring-cloud-gateway</module>
     </modules>
 
 

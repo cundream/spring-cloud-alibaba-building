@@ -1,0 +1,12 @@
+server:
+  port: 18003
+spring:
+  application:
+    name: spring-cloud-gateway
+
+
+management:
+  endpoint:
+    web:
+      exposure:
+        include:'*'
