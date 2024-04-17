@@ -4,6 +4,11 @@ spring:
   application:
     name: spring-cloud-service
 
+  cloud:
+    nacos:
+      config:
+        file-extension: yaml # 配置文件格式
+
 
 management:
   endpoint:

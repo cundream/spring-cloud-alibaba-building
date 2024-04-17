@@ -1,6 +1,6 @@
 package com.lison.springbootbuilding.controller;
 
-import com.lison.springbootbuilding.fegin.ITestService;
+import com.lison.springbootbuilding.feign.ITestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

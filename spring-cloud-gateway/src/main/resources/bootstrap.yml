@@ -5,8 +5,8 @@ spring:
     name: spring-cloud-gateway
   cloud:
     nacos:
-      discovery:
-        server-addr: 127.0.0.1:8848
+      config:
+        file-extension: yaml # 配置文件格式
     gateway:
       discovery:
         locator:
@@ -31,5 +31,13 @@ spring:
 
           filters: # 过滤器,请求在传递过程中可以通过过滤器对其进行一定的修改
             - StripPrefix=1 # 转发之前去掉1层路径
-            - AddResponseHeader=X-Response-Red, Lison
+           # - AddResponseHeader=X-Response-Red, Lison
             - Log=true,false #开启缓存日志和控制台日志，第一个参数控制台日志，第二个参数缓存日志
+
+        - id: spring_building
+          uri: lb://spring-cloud-building
+          predicates:
+            - Path=/spring_building/**
+          filters:
+            - StripPrefix=1
+

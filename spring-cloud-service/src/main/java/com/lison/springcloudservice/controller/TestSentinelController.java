@@ -1,8 +1,11 @@
 package com.lison.springcloudservice.controller;
 
-import com.alibaba.cloud.commons.lang.StringUtils;
+
 import com.alibaba.csp.sentinel.annotation.SentinelResource;
+import com.lison.springcloudservice.feign.ITestService;
 import com.lison.springcloudservice.service.TestSentinelMessage3ServiceImpl;
+import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -13,15 +16,29 @@ import org.springframework.web.bind.annotation.RestController;
  * @author: 李村 200900681
  * @createDate: 2024-02-19 09:51
  */
+@Slf4j
 @RestController
 public class TestSentinelController {
 
     @Autowired
     private TestSentinelMessage3ServiceImpl testSentinelMessage3Service;
 
+    @Autowired
+    private ITestService iTestService;
+
+
+
+    @RequestMapping("/fegin/test")
+    public String feginTest() {
+        iTestService.getServerPort();
+        log.info("这是message1");
+        return "message1";
+    }
+
     @RequestMapping("/sentinel/message1")
     public String message1() {
         testSentinelMessage3Service.message();
+        log.info("这是message1");
         return "message1";
     }
     @RequestMapping("/sentinel/message2")

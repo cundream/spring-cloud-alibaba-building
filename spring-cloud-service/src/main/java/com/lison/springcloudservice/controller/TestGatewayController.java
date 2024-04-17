@@ -1,6 +1,5 @@
 package com.lison.springcloudservice.controller;
 
-import com.alibaba.cloud.commons.lang.StringUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
