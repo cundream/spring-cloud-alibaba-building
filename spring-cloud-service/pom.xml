@@ -72,12 +72,12 @@
 
 
         <!-- RocketMQ客户端，版本与Broker保持一致 -->
-        <!--<dependency>
+        <dependency>
            <groupId>org.apache.rocketmq</groupId>
            <artifactId>rocketmq-spring-boot-starter</artifactId>
            <version>2.3.0</version>
        </dependency>
-       -->
+
 
 
    </dependencies>

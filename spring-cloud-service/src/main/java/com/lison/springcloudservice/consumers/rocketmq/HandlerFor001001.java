@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
  * @author: Lison
  * @createDate: 2024-04-20 16:55
  */
-@Component
+//@Component
 @Slf4j
 public class HandlerFor001001 {
 

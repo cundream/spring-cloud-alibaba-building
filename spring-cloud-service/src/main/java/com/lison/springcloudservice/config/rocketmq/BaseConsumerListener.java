@@ -23,8 +23,8 @@ import java.util.Date;
  * @createDate: 2024-04-20 16:53
  */
 @Slf4j
-@Component
-@RocketMQMessageListener(topic = "${rocketmq.topic}", consumerGroup = "${rocketmq.consumer.group}")
+//@Component
+//@RocketMQMessageListener(topic = "${rocketmq.topic}", consumerGroup = "${rocketmq.consumer.group}")
 public class BaseConsumerListener implements RocketMQListener<MessageExt>, RocketMQPushConsumerLifecycleListener {
 
 
