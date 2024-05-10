@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 /**
  * @className: com.lison.springbootbuilding.config-> RestTemplateConfig
  * @description:
- * @author: 李村 200900681
+ * @author: Lison
  * @createDate: 2023-09-23 17:07
  */
 @Component

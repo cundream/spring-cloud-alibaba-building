@@ -18,7 +18,7 @@ import java.util.List;
 /**
  * @className: com.lison.springcloudservice.config.sentinel-> FilePersistence
  * @description: 规则持久化
- * @author: 李村 200900681
+ * @author: Lison
  * @createDate: 2024-02-20 10:50
  */
 public class FileDataSourceInit implements InitFunc {

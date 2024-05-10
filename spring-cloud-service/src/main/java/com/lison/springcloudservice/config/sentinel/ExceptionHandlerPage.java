@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * @className: com.lison.springcloudservice.config-> ExceptionHandlerPage
  * @description:
- * @author: 李村 200900681
+ * @author: Lison
  * @createDate: 2024-02-20 10:33
  */
 

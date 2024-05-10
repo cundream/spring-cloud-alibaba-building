@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @className: com.lison.springcloudservice.controller-> TestSentinelController
  * @description:
- * @author: 李村 200900681
+ * @author: Lison
  * @createDate: 2024-02-19 09:51
  */
 @Slf4j

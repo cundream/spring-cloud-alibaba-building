@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 /**
  * @className: com.lison.springcloudservice.fegin-> ITestService
  * @description:
- * @author: 李村 200900681
+ * @author: Lison
  * @createDate: 2023-09-23 17:47
  */
 

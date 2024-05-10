@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 /**
  * @className: com.lison.springcloudservice.service-> TestSentinelMessage3ServiceImpl
  * @description:
- * @author: 李村 200900681
+ * @author: Lison
  * @createDate: 2024-02-19 15:32
  */
 @Service

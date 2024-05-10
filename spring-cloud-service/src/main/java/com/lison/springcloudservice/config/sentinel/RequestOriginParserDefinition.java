@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * @className: com.lison.springcloudservice.config-> RequestOriginParserDefinition
  * @description:
- * @author: 李村 200900681
+ * @author: Lison
  * @createDate: 2024-02-20 10:28
  */
 @Component

@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @className: com.lison.springcloudservice.controller-> TestGatewayController
  * @description:
- * @author: 李村 200900681
+ * @author: Lison
  * @createDate: 2024-02-22 15:18
  */
 @RestController
